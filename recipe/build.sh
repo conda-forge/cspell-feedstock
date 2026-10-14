@@ -28,9 +28,9 @@ chmod +x ${PREFIX}/bin/cspell-esm
 
 # Create batch wrapper
 tee ${PREFIX}/bin/cspell.cmd << EOF
-call %CONDA_PREFIX%\bin\node %CONDA_PREFIX%\lib\node_modules\cspell\bin.mjs %*
+call %CONDA_PREFIX%\node %CONDA_PREFIX%\lib\node_modules\cspell\bin.mjs %*
 EOF
 
 tee ${PREFIX}/bin/cspell-esm.cmd << EOF
-call %CONDA_PREFIX%\bin\node %CONDA_PREFIX%\lib\node_modules\cspell\bin.mjs %*
+call %CONDA_PREFIX%\node %CONDA_PREFIX%\lib\node_modules\cspell\bin.mjs %*
 EOF
