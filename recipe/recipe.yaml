@@ -1,5 +1,5 @@
 context:
-  version: "10.5.0"
+  version: "10.5.1"
 
 package:
   name: cspell
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://registry.npmjs.org/cspell/-/cspell-${{ version }}.tgz
-  sha256: cbcffb23cc59f07304f2e3a68cc774afa9c7c99da2dda58fac92f7f214ac0dfc
+  sha256: 8fd6f9f3f04af02fc94339e3846dc4ef2833aebacf115f47816b46c2a4c75e16
 
 build:
   number: 0
